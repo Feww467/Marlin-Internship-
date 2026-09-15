@@ -179,10 +179,10 @@
 #endif
 
 #define Z2_STEP_PIN                           36
-#define Z2_DIR_PIN                            38
-#define Z2_ENABLE_PIN                         34
+#define Z2_DIR_PIN                            34
+#define Z2_ENABLE_PIN                         30
 #ifndef Z2_CS_PIN
-  #define Z2_CS_PIN                      AUX2_07
+  #define Z 2_CS_PIN                      AUX2_07
 #endif
 //
 // Temperature Sensors
